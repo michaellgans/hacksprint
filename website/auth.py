@@ -13,3 +13,7 @@ def logout():
 @auth.route('/sign-up')
 def sign_up():
     return "<h1>This is the sign-up page</h1>"
+
+@auth.route('/sammy')
+def sammy():
+    return "<h1>SAMMY</h1>"
