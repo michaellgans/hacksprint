@@ -1,0 +1,99 @@
+/* Styling for Checkout */
+
+@font-face{
+    font-family: coolvetica;
+    src: url('../fonts/coolvetica\ rg.otf')
+}
+  
+  @font-face{
+    font-family: coolvetica2;
+    src: url('../fonts/coolvetica\ condensed\ rg.otf')
+}
+
+#cart:hover, #close:hover, #plus:hover, #minus:hover, #trashIcon:hover {
+    color: slategray;
+}
+
+#cart:active, #close:active, #plus:active, #minus:active, #trashIcon:active {
+    color: green;
+}
+
+.cartContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.cartHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 6px;
+}
+
+.allItems {
+    margin: 0px 10px;
+}
+
+.cartItem {
+    display: flex;
+    flex-direction: row;
+    border-top: 2px solid lightgrey;
+    background-color: whitesmoke;
+}
+
+.itemDescription {
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+    padding: 6px;
+}
+
+.itemPicture img {
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    height: 100px;
+}
+
+.itemNumber {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 6px 6px 6px 0px;
+}
+
+#itemQuantity {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.itemIcons {
+    display: flex;
+    flex-direction: row;
+}
+
+#trashIcon {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 6px;
+}
+
+.cartFooter {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-items: center;
+    padding: 6px;
+}
+
+#orderComplete {
+    display: flex;
+    justify-content: center;
+}

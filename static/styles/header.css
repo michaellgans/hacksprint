@@ -1,0 +1,38 @@
+/* Style Sheet for Header */
+
+header {
+    width: 100%;
+    /* position: fixed; */
+}
+
+.logo {
+    height: 45px;
+    display: flex;
+}
+
+.logo img {
+    border-radius: 50%;
+    margin-right: 5px;
+    height: 45px;
+}
+
+.logoLink {
+    display: inline-block;
+    height: 45px;
+}
+
+.cartIcon {
+    display: grid;
+    color: grey;
+    align-self: center;
+    padding-left: 6px;
+    /* width: 100%; */
+}
+
+.cartIcon:hover {
+    color: lightgray;
+}
+
+.cartIcon:active {
+    color: darkslategrey;
+}
